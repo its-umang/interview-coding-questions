@@ -66,7 +66,7 @@ class ThreeStack {
   }
 }
 
-class StackSol {
+class ThreeStackSol {
   public static void main(String[] args) {
     ThreeStack ts = new ThreeStack(5);
     ts.push(0, 1);
