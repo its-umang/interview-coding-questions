@@ -34,3 +34,6 @@ if __name__ == "__main__":
     print(isUnique(s))
     print(isUnique(t))
     print(isUnique(u))
+    # print(isUniqueSpace(s))
+    # print(isUniqueSpace(t))
+    # print(isUniqueSpace(u))

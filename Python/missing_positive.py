@@ -10,6 +10,7 @@ def find(arr):
             c1 = 1
         elif(arr[i]<=0 or arr[i]>n):
             arr[i]=1
+    print(arr)
 
     if(c1==0):
         return 1
@@ -18,14 +19,15 @@ def find(arr):
         idx = abs(arr[i])-1
         if(arr[idx]>0):
             arr[idx] = -1*arr[idx]
-
+    print(arr)
     for i in range(n):
         if(arr[i] > 0):
             return i+1
-        
+
     return n+1
 
 
 if __name__ == "__main__":
-    arr = [1, 2, 3, 4, 9]
+    # arr = [1, 2, 3, 4, 9]
+    arr = [1, 4, 2, 3]
     print(find(arr))

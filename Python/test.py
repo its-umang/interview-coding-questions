@@ -22,5 +22,5 @@ def lengthOfLongestSubstring(s):
     # return max_len
 
 if __name__ == "__main__":
-    str="pwwkew"
+    str="adjvcsadd"
     lengthOfLongestSubstring(str)
