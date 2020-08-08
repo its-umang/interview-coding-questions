@@ -13,7 +13,5 @@ def missingPangram(str):
     
 if __name__ == "__main__":
     # str = "The quick brown fox jumps over the lazy dog" # No Answer
-    # str = 'The quick brown fox jumps' # adglvyz
-    str = "UMANG DINA JAGDISH"
-    # BCEFKLOPQRTVWXYZ
+    str = 'The quick brown fox jumps' # adglvyz
     missingPangram(str)
